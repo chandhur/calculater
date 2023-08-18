@@ -1,0 +1,97 @@
+body{
+    background-color: rgb(163, 119, 64);
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+header
+{
+   
+    border-radius: 30px;
+    background: rgb(78, 146, 32);
+  /* background: linear-gradient(0deg, rgba(34,193,195,1) 0%, rgba(253,187,45,1) 100%);  */
+     width:27%; 
+    height: 550px;
+    box-shadow: 10px 10px 10px black;
+    margin-left:450px ;
+    
+    
+
+}
+ 
+
+input{
+    height:50px;
+    width:300px;
+    margin:28px;
+    border:none ;
+    border-radius:5px ;
+    border-bottom: 4px solid black;
+    background-color:rgb(233, 224, 224)
+}
+button
+{
+    border:none ;
+    height: 70px;
+    width:70px;
+    color:black;
+    border-radius: 40px;
+    margin-top:10px;
+    margin-right:5px ;
+    box-shadow: 1px 1px 10px black ;
+    font-size: x-large;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-shadow: 1px 1px 10px black;
+   
+}
+.move
+{
+    margin-left:24px;
+}
+.dd
+{
+    width:140px;
+}
+.cc
+{
+    width:300px;
+    background: rgb(187, 37, 179); 
+    animation-name: you;
+    animation-duration:7s ;
+  
+
+} 
+@keyframes you
+
+{
+    25% {background-color: rgb(165, 147, 42);}
+    10%{box-shadow:10px 10px 60px black ;}
+    5% {background-color: blue;}
+    40%{box-shadow:10px 40px 10px black ;}
+    50%{background-color:rgb(197, 25, 197) ;}
+    60%{box-shadow:20px 10px 10px black ;}
+    75%{background-color: aqua;}
+    100%{background-color:rgb(128, 15, 15) ;}
+
+}
+.sum
+{
+    background-color: rgb(133, 81, 38);
+    display: flex;
+    flex-direction: column;
+    top:140px;
+    box-shadow: 1px 1px 10px black;
+    padding:20px;
+ 
+
+}
+ .my
+ {
+     
+    background-color: rgb(98, 72, 119);
+    width:33%;
+ }
+ .my1{
+    width:370px;
+    background-color: rgb(226, 165, 165);
+ }
+ 
